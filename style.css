@@ -1,5 +1,34 @@
-#index_body{
-  background-image: url('./images/kerala-turisom.jpeg');
-  background-size: cover;
+body {
+  background-image: url("./images/my-kerala.webp");
   background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  margin: 0%;
 }
+
+#my-kerala {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#content {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5vw;
+  font: 300 bolder;
+  width: 30%;
+  margin-left: 50px;
+}
+
+#leftover {
+  width: 70%;
+}
+
+#btngo {
+  background-color: skyblue;
+  font-size: xx-large;
+  margin-left: 250px;
+  font-weight: 600;
+  border-radius: 10%;
+  padding: 0px 10px 10px 10px;
+}
+
