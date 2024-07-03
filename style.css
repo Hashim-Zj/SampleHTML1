@@ -1,4 +1,4 @@
-body {
+#index_body {
   background-image: url("./images/my-kerala.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,3 +32,55 @@ body {
   padding: 0px 10px 10px 10px;
 }
 
+.reg {
+  margin: auto;
+  width: 98%;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgb(220, 206, 206),
+    rgb(181, 197, 220)
+  );
+}
+
+
+#Visit {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xx-large;
+  font-style: bolder;
+  color: rgb(9, 84, 34);
+  position: relative;
+  left: 30%;
+  top: 15px;
+}
+
+.reg table{
+  width: 80%;
+  position: relative;
+  margin: auto;
+ border: 0.1px rgb(80, 78, 78) solid;
+ border-radius: 5px;
+ background-image:linear-gradient(90deg,rgb(229, 219, 219),rgb(228, 231, 237))
+
+}
+.place_details{
+  width: 70%;
+  padding: 5px;
+}
+.place_title{
+  padding: 0% 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font: 400 solid;
+  color:darkgreen;
+  margin-bottom: 10px;
+
+}
+.place_data{
+  color:darkblue;
+}
+.place_image{
+  width: 30%;
+  padding: 5px;
+
+}
